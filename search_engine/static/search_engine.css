@@ -1,0 +1,35 @@
+#searchbar{ 
+	margin-left: 5%; 
+	padding:12px; 
+	border-radius: 10px; 
+} 
+/* We're working with the body tag, and so with the WHOLE page */
+body
+{
+     background-image: "../../glass.jpg"; /*The page background will be black */
+    background-color: SlateBlue;*/
+    color: black; /* The page text will be white */
+    background-size: 2000px 1000px
+}
+input[type=text] { 
+	width: 30%; 
+	-webkit-transition: width 0.15s ease-in-out; 
+	transition: width 0.15s ease-in-out; 
+} 
+
+
+input[type=text]:focus { 
+	width: 40%; 
+} 
+
+#list{ 
+	font-size: 1.5em; 
+	margin-left: 80px; 
+} 
+
+.keywords{ 
+display: list-item;	 
+} 
+
+
+

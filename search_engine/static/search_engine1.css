@@ -1,0 +1,18 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#searchbar{ 
+	margin-left: 5%; 
+	padding:12px; 
+	border-radius: 10px; 
+} 
+/* We're working with the body tag, and so with the WHOLE page */
+body
+{
+    /* background-image: url("/home/sanjana/SIH-2020/glass.jpg"); /*The page background will be black */
+    background-color: LightGrey;
+    color: black; /* The page text will be white */
+    background-size: 2000px 1000px
+}

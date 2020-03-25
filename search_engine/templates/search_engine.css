@@ -1,0 +1,31 @@
+#searchbar{
+	margin-left: 5%;
+	padding:12px;
+	border-radius: 10px;
+}
+
+body
+{
+	background-color: black;
+	color: white;
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+
+input[type=text]:focus {
+	width: 40%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 80px;
+}
+
+.keywords{
+display: list-item;
+}
